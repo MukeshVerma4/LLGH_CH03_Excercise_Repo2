@@ -27,7 +27,7 @@ jobs:
     uses: MukeshVerma4/LLGA_CH03_ExcerciseRepo1/.github/workflows/python-app.yml@main
     permissions:
       contents: read
-    
+      checks: write
   build:
     needs: [integration]
 
