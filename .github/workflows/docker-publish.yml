@@ -24,9 +24,9 @@ env:
 
 jobs:
   integration:
-    uses: https://github.com/MukeshVerma4/LLGA_CH03_ExcerciseRepo1/blob/6470d5ec868c941098c80d8c925e8e5c0317d4ed/.github/workflows/python-app.yml
+    uses: MukeshVerma4/LLGA_CH03_ExcerciseRepo1/.github/workflows/python-app.yml@main
     contents: read
-    checks: write
+    
   build:
     needs: [integration]
 
