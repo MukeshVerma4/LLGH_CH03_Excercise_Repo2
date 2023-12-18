@@ -25,7 +25,8 @@ env:
 jobs:
   integration:
     uses: MukeshVerma4/LLGA_CH03_ExcerciseRepo1/.github/workflows/python-app.yml@main
-    contents: read
+    permissions:
+      contents: read
     
   build:
     needs: [integration]
